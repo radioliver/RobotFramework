@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-06T08:55:27.747681" rpa="false" schemaversion="5">
+<suite id="s1" name="RobotFramework" source="C:\Users\RadiOliver\Documents\GitHub\RobotFramework">
+<suite id="s1-s1" name="sauceDemoLogin" source="C:\Users\RadiOliver\Documents\GitHub\RobotFramework\sauceDemoLogin.robot">
+<test id="s1-s1-t1" name="Login with standard user wrong password" line="19">
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2026-02-06T08:55:27.889980" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-06T08:55:27.889600" elapsed="5.079166"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-02-06T08:55:32.969490" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<arg>id=user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-06T08:55:32.969106" elapsed="0.051764"/>
+</kw>
+<kw name="Input Password" owner="Selenium2Library">
+<msg time="2026-02-06T08:55:33.021416" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2026-02-06T08:55:33.027237" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id=password</arg>
+<arg>wrong_password</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-06T08:55:33.021143" elapsed="0.027825"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-02-06T08:55:33.049515" level="INFO">Clicking button 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-06T08:55:33.049253" elapsed="0.072932"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-06T08:55:36.123995" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-06T08:55:33.122539" elapsed="3.002537"/>
+</kw>
+<kw name="Close Browser" owner="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-06T08:55:36.127041" elapsed="2.680169"/>
+</kw>
+<status status="PASS" start="2026-02-06T08:55:27.887238" elapsed="10.921213"/>
+</test>
+<status status="PASS" start="2026-02-06T08:55:27.773146" elapsed="11.045542"/>
+</suite>
+<status status="PASS" start="2026-02-06T08:55:27.751085" elapsed="11.072499"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="RobotFramework" id="s1" pass="1" fail="0" skip="0">RobotFramework</stat>
+<stat name="sauceDemoLogin" id="s1-s1" pass="1" fail="0" skip="0">RobotFramework.sauceDemoLogin</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
