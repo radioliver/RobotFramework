@@ -1,372 +1,372 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-27T09:39:34.782979" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-27T09:47:48.347656" rpa="false" schemaversion="5">
 <suite id="s1" name="RobotFramework" source="C:\Users\RadiOliver\Documents\GitHub\RobotFramework">
 <suite id="s1-s1" name="Sorting Price" source="C:\Users\RadiOliver\Documents\GitHub\RobotFramework\sorting_price.robot">
 <test id="s1-s1-t1" name="Sort products price low to high" line="10">
 <kw name="Login with standard user" owner="login_keywords">
 <kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:34.964198" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-02-27T09:47:48.540647" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
 <arg>https://www.saucedemo.com/</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-27T09:39:34.963941" elapsed="5.603613"/>
+<status status="PASS" start="2026-02-27T09:47:48.540404" elapsed="5.620268"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-27T09:39:43.568660" level="INFO">Slept 3 seconds.</msg>
+<msg time="2026-02-27T09:47:57.162071" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-27T09:39:40.567769" elapsed="3.001903"/>
+<status status="PASS" start="2026-02-27T09:47:54.160884" elapsed="3.002446"/>
 </kw>
 <kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:43.571464" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<msg time="2026-02-27T09:47:57.165063" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
 <arg>id=user-name</arg>
 <arg>standard_user</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:43.570254" elapsed="0.043676"/>
+<status status="PASS" start="2026-02-27T09:47:57.163838" elapsed="0.039322"/>
 </kw>
 <kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:43.614369" level="INFO">Typing password into text field 'id=password'.</msg>
-<msg time="2026-02-27T09:39:43.617791" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-02-27T09:47:57.203595" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2026-02-27T09:47:57.207076" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>id=password</arg>
 <arg>secret_sauce</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:43.614107" elapsed="0.015690"/>
+<status status="PASS" start="2026-02-27T09:47:57.203333" elapsed="0.016488"/>
 </kw>
 <kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:43.630220" level="INFO">Clicking button 'id=login-button'.</msg>
+<msg time="2026-02-27T09:47:57.220231" level="INFO">Clicking button 'id=login-button'.</msg>
 <arg>id=login-button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:43.629968" elapsed="0.077288"/>
+<status status="PASS" start="2026-02-27T09:47:57.219993" elapsed="0.092059"/>
 </kw>
-<status status="PASS" start="2026-02-27T09:39:34.963269" elapsed="8.744142"/>
+<status status="PASS" start="2026-02-27T09:47:48.539770" elapsed="8.772426"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:43.707898" level="INFO">Clicking element 'class=product_sort_container'.</msg>
+<msg time="2026-02-27T09:47:57.312719" level="INFO">Clicking element 'class=product_sort_container'.</msg>
 <arg>class=product_sort_container</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:43.707641" elapsed="0.126813"/>
+<status status="PASS" start="2026-02-27T09:47:57.312435" elapsed="0.138018"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-27T09:39:45.835999" level="INFO">Slept 2 seconds.</msg>
+<msg time="2026-02-27T09:47:59.453503" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-27T09:39:43.834847" elapsed="2.001864"/>
+<status status="PASS" start="2026-02-27T09:47:57.452027" elapsed="2.001824"/>
 </kw>
 <kw name="Select From List By Label" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:45.838649" level="INFO">Selecting options from selection list 'class=product_sort_container' by label Price (low to high).</msg>
+<msg time="2026-02-27T09:47:59.454879" level="INFO">Selecting options from selection list 'class=product_sort_container' by label Price (low to high).</msg>
 <arg>class=product_sort_container</arg>
 <arg>Price (low to high)</arg>
 <doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<status status="PASS" start="2026-02-27T09:39:45.837824" elapsed="0.078352"/>
+<status status="PASS" start="2026-02-27T09:47:59.454384" elapsed="0.090505"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.918000" level="INFO">Slept 4 seconds.</msg>
+<msg time="2026-02-27T09:48:03.546651" level="INFO">Slept 4 seconds.</msg>
 <arg>4s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-27T09:39:45.916840" elapsed="4.002338"/>
+<status status="PASS" start="2026-02-27T09:47:59.545360" elapsed="4.002661"/>
 </kw>
 <kw name="Get all products">
 <kw name="Create List" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.924101" level="INFO">${products} = []</msg>
+<msg time="2026-02-27T09:48:03.553867" level="INFO">${products} = []</msg>
 <var>${products}</var>
 <doc>Returns a list containing given items.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.922708" elapsed="0.001787"/>
+<status status="PASS" start="2026-02-27T09:48:03.552827" elapsed="0.001712"/>
 </kw>
 <kw name="Get WebElements" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:49.930359" level="INFO">@{product_elements} = [ &lt;selenium.webdriver.remote.webelement.WebElement (session="c878febc-e769-4b8e-995d-cb3a56367fa8", element="2fa34cff-03b4-4e29-816a-3aaa8c5a64ff")&gt; | &lt;selenium.webdriver.remote.webelement.WebElement ...</msg>
+<msg time="2026-02-27T09:48:03.560587" level="INFO">@{product_elements} = [ &lt;selenium.webdriver.remote.webelement.WebElement (session="b97f0c0d-8c42-4c8c-ba55-3e0c7e693d25", element="61092757-a206-4833-9661-043a93ab59f2")&gt; | &lt;selenium.webdriver.remote.webelement.WebElement ...</msg>
 <var>@{product_elements}</var>
 <arg>class=inventory_item_price</arg>
 <doc>Returns a list of WebElement objects matching the ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.924973" elapsed="0.005618"/>
+<status status="PASS" start="2026-02-27T09:48:03.554983" elapsed="0.006004"/>
 </kw>
 <for flavor="IN">
 <iter>
 <kw name="Get Text" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:49.937112" level="INFO">${szoveg} = $7.99</msg>
+<msg time="2026-02-27T09:48:03.574081" level="INFO">${szoveg} = $7.99</msg>
 <var>${szoveg}</var>
 <arg>${element}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.931495" elapsed="0.005759"/>
+<status status="PASS" start="2026-02-27T09:48:03.564354" elapsed="0.010023"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.938000" level="INFO">${product_price} = 7.99</msg>
+<msg time="2026-02-27T09:48:03.575742" level="INFO">${product_price} = 7.99</msg>
 <var>${product_price}</var>
 <arg>${szoveg[1:]}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.937407" elapsed="0.000699"/>
+<status status="PASS" start="2026-02-27T09:48:03.574640" elapsed="0.001425"/>
 </kw>
 <kw name="Append To List" owner="Collections">
 <arg>${products}</arg>
 <arg>${product_price}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.938226" elapsed="0.000292"/>
+<status status="PASS" start="2026-02-27T09:48:03.576293" elapsed="0.000509"/>
 </kw>
-<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c878febc-e769-4b8e-995d-cb3a56367fa8", element="2fa34cff-03b4-4e29-816a-3aaa8c5a64ff")&gt;</var>
-<status status="PASS" start="2026-02-27T09:39:49.931272" elapsed="0.007311"/>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="b97f0c0d-8c42-4c8c-ba55-3e0c7e693d25", element="61092757-a206-4833-9661-043a93ab59f2")&gt;</var>
+<status status="PASS" start="2026-02-27T09:48:03.563119" elapsed="0.013831"/>
 </iter>
 <iter>
 <kw name="Get Text" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:49.942950" level="INFO">${szoveg} = $9.99</msg>
+<msg time="2026-02-27T09:48:03.583541" level="INFO">${szoveg} = $9.99</msg>
 <var>${szoveg}</var>
 <arg>${element}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.938815" elapsed="0.004287"/>
+<status status="PASS" start="2026-02-27T09:48:03.577502" elapsed="0.006184"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.943887" level="INFO">${product_price} = 9.99</msg>
+<msg time="2026-02-27T09:48:03.584443" level="INFO">${product_price} = 9.99</msg>
 <var>${product_price}</var>
 <arg>${szoveg[1:]}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.943253" elapsed="0.000868"/>
+<status status="PASS" start="2026-02-27T09:48:03.583831" elapsed="0.000703"/>
 </kw>
 <kw name="Append To List" owner="Collections">
 <arg>${products}</arg>
 <arg>${product_price}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.944262" elapsed="0.000227"/>
+<status status="PASS" start="2026-02-27T09:48:03.584638" elapsed="0.000220"/>
 </kw>
-<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c878febc-e769-4b8e-995d-cb3a56367fa8", element="34355184-698c-45ec-8646-1c8fee35aa12")&gt;</var>
-<status status="PASS" start="2026-02-27T09:39:49.938693" elapsed="0.005859"/>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="b97f0c0d-8c42-4c8c-ba55-3e0c7e693d25", element="56331a67-4632-432b-aaf7-124859058101")&gt;</var>
+<status status="PASS" start="2026-02-27T09:48:03.577189" elapsed="0.007726"/>
 </iter>
 <iter>
 <kw name="Get Text" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:49.949457" level="INFO">${szoveg} = $15.99</msg>
+<msg time="2026-02-27T09:48:03.589119" level="INFO">${szoveg} = $15.99</msg>
 <var>${szoveg}</var>
 <arg>${element}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.944823" elapsed="0.004865"/>
+<status status="PASS" start="2026-02-27T09:48:03.585241" elapsed="0.004097"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.950425" level="INFO">${product_price} = 15.99</msg>
+<msg time="2026-02-27T09:48:03.590269" level="INFO">${product_price} = 15.99</msg>
 <var>${product_price}</var>
 <arg>${szoveg[1:]}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.949850" elapsed="0.000681"/>
+<status status="PASS" start="2026-02-27T09:48:03.589461" elapsed="0.001023"/>
 </kw>
 <kw name="Append To List" owner="Collections">
 <arg>${products}</arg>
 <arg>${product_price}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.950656" elapsed="0.000271"/>
+<status status="PASS" start="2026-02-27T09:48:03.590653" elapsed="0.000320"/>
 </kw>
-<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c878febc-e769-4b8e-995d-cb3a56367fa8", element="bbb568ef-12ae-444f-932a-316bcadc57f7")&gt;</var>
-<status status="PASS" start="2026-02-27T09:39:49.944663" elapsed="0.006334"/>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="b97f0c0d-8c42-4c8c-ba55-3e0c7e693d25", element="6c5cf985-514a-4112-bab1-d0e51f60b3b1")&gt;</var>
+<status status="PASS" start="2026-02-27T09:48:03.585009" elapsed="0.006069"/>
 </iter>
 <iter>
 <kw name="Get Text" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:49.955276" level="INFO">${szoveg} = $15.99</msg>
+<msg time="2026-02-27T09:48:03.595771" level="INFO">${szoveg} = $15.99</msg>
 <var>${szoveg}</var>
 <arg>${element}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.951346" elapsed="0.004107"/>
+<status status="PASS" start="2026-02-27T09:48:03.591542" elapsed="0.004348"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.956154" level="INFO">${product_price} = 15.99</msg>
+<msg time="2026-02-27T09:48:03.596886" level="INFO">${product_price} = 15.99</msg>
 <var>${product_price}</var>
 <arg>${szoveg[1:]}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.955586" elapsed="0.000665"/>
+<status status="PASS" start="2026-02-27T09:48:03.596039" elapsed="0.000978"/>
 </kw>
 <kw name="Append To List" owner="Collections">
 <arg>${products}</arg>
 <arg>${product_price}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.956372" elapsed="0.000298"/>
+<status status="PASS" start="2026-02-27T09:48:03.597141" elapsed="0.000207"/>
 </kw>
-<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c878febc-e769-4b8e-995d-cb3a56367fa8", element="8516b5f4-9951-49fb-9890-a4d2c524c691")&gt;</var>
-<status status="PASS" start="2026-02-27T09:39:49.951222" elapsed="0.005516"/>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="b97f0c0d-8c42-4c8c-ba55-3e0c7e693d25", element="5d7cf99a-c47b-4655-9e9c-89cc2c2b3650")&gt;</var>
+<status status="PASS" start="2026-02-27T09:48:03.591374" elapsed="0.006033"/>
 </iter>
 <iter>
 <kw name="Get Text" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:49.961444" level="INFO">${szoveg} = $29.99</msg>
+<msg time="2026-02-27T09:48:03.601853" level="INFO">${szoveg} = $29.99</msg>
 <var>${szoveg}</var>
 <arg>${element}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.957012" elapsed="0.004551"/>
+<status status="PASS" start="2026-02-27T09:48:03.597665" elapsed="0.004294"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.962322" level="INFO">${product_price} = 29.99</msg>
+<msg time="2026-02-27T09:48:03.602534" level="INFO">${product_price} = 29.99</msg>
 <var>${product_price}</var>
 <arg>${szoveg[1:]}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.961709" elapsed="0.000725"/>
+<status status="PASS" start="2026-02-27T09:48:03.602072" elapsed="0.000598"/>
 </kw>
 <kw name="Append To List" owner="Collections">
 <arg>${products}</arg>
 <arg>${product_price}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.962561" elapsed="0.000342"/>
+<status status="PASS" start="2026-02-27T09:48:03.602894" elapsed="0.000308"/>
 </kw>
-<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c878febc-e769-4b8e-995d-cb3a56367fa8", element="d03e72bc-d05d-4a11-b3c4-0d1065047865")&gt;</var>
-<status status="PASS" start="2026-02-27T09:39:49.956875" elapsed="0.006094"/>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="b97f0c0d-8c42-4c8c-ba55-3e0c7e693d25", element="609480f9-8d09-488d-8bc1-993f6c50ea38")&gt;</var>
+<status status="PASS" start="2026-02-27T09:48:03.597497" elapsed="0.005797"/>
 </iter>
 <iter>
 <kw name="Get Text" owner="Selenium2Library">
-<msg time="2026-02-27T09:39:49.967035" level="INFO">${szoveg} = $49.99</msg>
+<msg time="2026-02-27T09:48:03.607438" level="INFO">${szoveg} = $49.99</msg>
 <var>${szoveg}</var>
 <arg>${element}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.963195" elapsed="0.003943"/>
+<status status="PASS" start="2026-02-27T09:48:03.603680" elapsed="0.003910"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.967730" level="INFO">${product_price} = 49.99</msg>
+<msg time="2026-02-27T09:48:03.608339" level="INFO">${product_price} = 49.99</msg>
 <var>${product_price}</var>
 <arg>${szoveg[1:]}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.967255" elapsed="0.000568"/>
+<status status="PASS" start="2026-02-27T09:48:03.607701" elapsed="0.000727"/>
 </kw>
 <kw name="Append To List" owner="Collections">
 <arg>${products}</arg>
 <arg>${product_price}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.967924" elapsed="0.000229"/>
+<status status="PASS" start="2026-02-27T09:48:03.608537" elapsed="0.000239"/>
 </kw>
-<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c878febc-e769-4b8e-995d-cb3a56367fa8", element="8e532fe2-a16b-44a5-9d75-9a2c99b1736f")&gt;</var>
-<status status="PASS" start="2026-02-27T09:39:49.963066" elapsed="0.005142"/>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="b97f0c0d-8c42-4c8c-ba55-3e0c7e693d25", element="0d0f871f-2afb-422d-892d-4c484988c5b4")&gt;</var>
+<status status="PASS" start="2026-02-27T09:48:03.603438" elapsed="0.005396"/>
 </iter>
 <var>${element}</var>
 <value>@{product_elements}</value>
-<status status="PASS" start="2026-02-27T09:39:49.930790" elapsed="0.037460"/>
+<status status="PASS" start="2026-02-27T09:48:03.561523" elapsed="0.047352"/>
 </for>
 <return>
 <value>${products}</value>
-<status status="PASS" start="2026-02-27T09:39:49.968309" elapsed="0.000095"/>
+<status status="PASS" start="2026-02-27T09:48:03.608932" elapsed="0.000084"/>
 </return>
-<msg time="2026-02-27T09:39:49.968517" level="INFO">${product_prices} = ['7.99', '9.99', '15.99', '15.99', '29.99', '49.99']</msg>
+<msg time="2026-02-27T09:48:03.609122" level="INFO">${product_prices} = ['7.99', '9.99', '15.99', '15.99', '29.99', '49.99']</msg>
 <var>${product_prices}</var>
-<status status="PASS" start="2026-02-27T09:39:49.921230" elapsed="0.047394"/>
+<status status="PASS" start="2026-02-27T09:48:03.551046" elapsed="0.058193"/>
 </kw>
 <kw name="Veryfy price low to high sorting">
 <kw name="Get Length" owner="BuiltIn">
-<msg time="2026-02-27T09:39:49.969360" level="INFO">Length is 6.</msg>
-<msg time="2026-02-27T09:39:49.969475" level="INFO">${length} = 6</msg>
+<msg time="2026-02-27T09:48:03.610127" level="INFO">Length is 6.</msg>
+<msg time="2026-02-27T09:48:03.610241" level="INFO">${length} = 6</msg>
 <var>${length}</var>
 <arg>${product_prices}</arg>
 <doc>Returns and logs the length of the given item as an integer.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.969071" elapsed="0.000506"/>
+<status status="PASS" start="2026-02-27T09:48:03.609820" elapsed="0.000537"/>
 </kw>
 <for flavor="IN RANGE">
 <iter>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.970179" level="INFO">${current} = 9.99</msg>
+<msg time="2026-02-27T09:48:03.611107" level="INFO">${current} = 9.99</msg>
 <var>${current}</var>
 <arg>${product_prices}</arg>
 <arg>${i}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.969993" elapsed="0.000265"/>
+<status status="PASS" start="2026-02-27T09:48:03.610927" elapsed="0.000371"/>
 </kw>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.970671" level="INFO">${next} = 15.99</msg>
+<msg time="2026-02-27T09:48:03.612087" level="INFO">${next} = 15.99</msg>
 <var>${next}</var>
 <arg>${product_prices}</arg>
 <arg>${i+1}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.970364" elapsed="0.000408"/>
+<status status="PASS" start="2026-02-27T09:48:03.611431" elapsed="0.000779"/>
 </kw>
 <kw name="Should Be True" owner="BuiltIn">
 <arg>${current}&lt;=${next}</arg>
 <arg>Sorting is not A to Z at index ${i}</arg>
 <doc>Fails if the given condition is not true.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.970864" elapsed="0.000374"/>
+<status status="PASS" start="2026-02-27T09:48:03.612334" elapsed="0.000559"/>
 </kw>
 <var name="${i}">1</var>
-<status status="PASS" start="2026-02-27T09:39:49.969887" elapsed="0.001416"/>
+<status status="PASS" start="2026-02-27T09:48:03.610795" elapsed="0.002222"/>
 </iter>
 <iter>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.971701" level="INFO">${current} = 15.99</msg>
+<msg time="2026-02-27T09:48:03.613544" level="INFO">${current} = 15.99</msg>
 <var>${current}</var>
 <arg>${product_prices}</arg>
 <arg>${i}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.971533" elapsed="0.000255"/>
+<status status="PASS" start="2026-02-27T09:48:03.613303" elapsed="0.000335"/>
 </kw>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.972257" level="INFO">${next} = 15.99</msg>
+<msg time="2026-02-27T09:48:03.614141" level="INFO">${next} = 15.99</msg>
 <var>${next}</var>
 <arg>${product_prices}</arg>
 <arg>${i+1}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.971888" elapsed="0.000446"/>
+<status status="PASS" start="2026-02-27T09:48:03.613746" elapsed="0.000487"/>
 </kw>
 <kw name="Should Be True" owner="BuiltIn">
 <arg>${current}&lt;=${next}</arg>
 <arg>Sorting is not A to Z at index ${i}</arg>
 <doc>Fails if the given condition is not true.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.972425" elapsed="0.000324"/>
+<status status="PASS" start="2026-02-27T09:48:03.614356" elapsed="0.000396"/>
 </kw>
 <var name="${i}">2</var>
-<status status="PASS" start="2026-02-27T09:39:49.971386" elapsed="0.001421"/>
+<status status="PASS" start="2026-02-27T09:48:03.613131" elapsed="0.001684"/>
 </iter>
 <iter>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.973160" level="INFO">${current} = 15.99</msg>
+<msg time="2026-02-27T09:48:03.615209" level="INFO">${current} = 15.99</msg>
 <var>${current}</var>
 <arg>${product_prices}</arg>
 <arg>${i}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.972988" elapsed="0.000247"/>
+<status status="PASS" start="2026-02-27T09:48:03.615014" elapsed="0.000309"/>
 </kw>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.973652" level="INFO">${next} = 29.99</msg>
+<msg time="2026-02-27T09:48:03.615824" level="INFO">${next} = 29.99</msg>
 <var>${next}</var>
 <arg>${product_prices}</arg>
 <arg>${i+1}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.973325" elapsed="0.000400"/>
+<status status="PASS" start="2026-02-27T09:48:03.615433" elapsed="0.000519"/>
 </kw>
 <kw name="Should Be True" owner="BuiltIn">
 <arg>${current}&lt;=${next}</arg>
 <arg>Sorting is not A to Z at index ${i}</arg>
 <doc>Fails if the given condition is not true.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.973815" elapsed="0.000336"/>
+<status status="PASS" start="2026-02-27T09:48:03.616052" elapsed="0.000348"/>
 </kw>
 <var name="${i}">3</var>
-<status status="PASS" start="2026-02-27T09:39:49.972886" elapsed="0.001321"/>
+<status status="PASS" start="2026-02-27T09:48:03.614904" elapsed="0.001575"/>
 </iter>
 <iter>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.974535" level="INFO">${current} = 29.99</msg>
+<msg time="2026-02-27T09:48:03.616933" level="INFO">${current} = 29.99</msg>
 <var>${current}</var>
 <arg>${product_prices}</arg>
 <arg>${i}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.974376" elapsed="0.000260"/>
+<status status="PASS" start="2026-02-27T09:48:03.616732" elapsed="0.000287"/>
 </kw>
 <kw name="Get From List" owner="Collections">
-<msg time="2026-02-27T09:39:49.975112" level="INFO">${next} = 49.99</msg>
+<msg time="2026-02-27T09:48:03.617585" level="INFO">${next} = 49.99</msg>
 <var>${next}</var>
 <arg>${product_prices}</arg>
 <arg>${i+1}</arg>
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.974799" elapsed="0.000390"/>
+<status status="PASS" start="2026-02-27T09:48:03.617198" elapsed="0.000475"/>
 </kw>
 <kw name="Should Be True" owner="BuiltIn">
 <arg>${current}&lt;=${next}</arg>
 <arg>Sorting is not A to Z at index ${i}</arg>
 <doc>Fails if the given condition is not true.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.975279" elapsed="0.000333"/>
+<status status="PASS" start="2026-02-27T09:48:03.617788" elapsed="0.000414"/>
 </kw>
 <var name="${i}">4</var>
-<status status="PASS" start="2026-02-27T09:39:49.974282" elapsed="0.001393"/>
+<status status="PASS" start="2026-02-27T09:48:03.616571" elapsed="0.001706"/>
 </iter>
 <var>${i}</var>
 <value>1</value>
 <value>${length}-1</value>
-<status status="PASS" start="2026-02-27T09:39:49.969655" elapsed="0.006060"/>
+<status status="PASS" start="2026-02-27T09:48:03.610553" elapsed="0.007767"/>
 </for>
 <arg>${product_prices}</arg>
-<status status="PASS" start="2026-02-27T09:39:49.968833" elapsed="0.006943"/>
+<status status="PASS" start="2026-02-27T09:48:03.609565" elapsed="0.008828"/>
 </kw>
 <kw name="Close All Browsers" owner="Selenium2Library">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" start="2026-02-27T09:39:49.975914" elapsed="2.654441"/>
+<status status="PASS" start="2026-02-27T09:48:03.618583" elapsed="2.616891"/>
 </kw>
-<status status="PASS" start="2026-02-27T09:39:34.961261" elapsed="17.669673"/>
+<status status="PASS" start="2026-02-27T09:47:48.537794" elapsed="17.698139"/>
 </test>
-<status status="PASS" start="2026-02-27T09:39:34.817698" elapsed="17.817843"/>
+<status status="PASS" start="2026-02-27T09:47:48.384426" elapsed="17.854325"/>
 </suite>
-<status status="PASS" start="2026-02-27T09:39:34.786465" elapsed="17.851212"/>
+<status status="PASS" start="2026-02-27T09:47:48.351161" elapsed="17.889481"/>
 </suite>
 <statistics>
 <total>

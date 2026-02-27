@@ -38,6 +38,6 @@ Veryfy price low to high sorting
         ${current}=    Get From List    ${product_prices}    ${i}
         ${next}=    Get From List   ${product_prices}    ${i+1}
 
-        Should Be True    ${current}<=${next}    Sorting is not A to Z at index ${i}
+        Should Be True    ${current}<=${next}    Sorting is not low to high at index ${i}
 
     END   
