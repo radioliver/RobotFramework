@@ -1,0 +1,22 @@
+1772180985254	geckodriver	INFO	Listening on 127.0.0.1:65357
+1772180988357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65358" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RADIOL~1\\AppData\\Local\\Temp\\rust_mozprofiley6Pymv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1772180988565	Marionette	INFO	Marionette enabled
+1772180988634	Marionette	INFO	Listening on port 49366
+WebDriver BiDi listening on ws://127.0.0.1:65358
+Read port: 49366
+1772180988721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+value@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:488360
+value@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:487756
+value@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:509574
+value@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:505799
+89083/r/936/t/7429/value/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:440840
+
+1772181006890	Marionette	INFO	Stopped listening on port 49366
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
