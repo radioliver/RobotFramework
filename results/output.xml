@@ -1,133 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-20T09:01:54.767002" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-27T07:41:26.639216" rpa="false" schemaversion="5">
 <suite id="s1" name="RobotFramework" source="C:\Users\RadiOliver\Documents\GitHub\RobotFramework">
-<suite id="s1-s1" name="Cart" source="C:\Users\RadiOliver\Documents\GitHub\RobotFramework\cart.robot">
-<test id="s1-s1-t1" name="Check cart" line="43">
-<kw name="Login to saucedemo">
+<suite id="s1-s1" name="Sorting" source="C:\Users\RadiOliver\Documents\GitHub\RobotFramework\sorting.robot">
+<test id="s1-s1-t1" name="Sort products A to Z" line="10">
+<kw name="Login with standard user" owner="login_keywords">
 <kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-02-20T09:01:54.942272" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-02-27T07:41:26.925413" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-02-27T07:41:27.660249" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
 <arg>https://www.saucedemo.com/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-20T09:01:54.942033" elapsed="0.797460"/>
+<status status="PASS" start="2026-02-27T07:41:26.925157" elapsed="1.626500"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-20T09:01:58.740520" level="INFO">Slept 3 seconds.</msg>
+<msg time="2026-02-27T07:41:31.553103" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-20T09:01:55.739702" elapsed="3.001197"/>
+<status status="PASS" start="2026-02-27T07:41:28.551865" elapsed="3.002866"/>
 </kw>
 <kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-02-20T09:01:58.741592" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<msg time="2026-02-27T07:41:31.558206" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
 <arg>id=user-name</arg>
 <arg>standard_user</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:01:58.741164" elapsed="0.059365"/>
+<status status="PASS" start="2026-02-27T07:41:31.555910" elapsed="0.099555"/>
 </kw>
 <kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-02-20T09:01:58.801078" level="INFO">Typing password into text field 'id=password'.</msg>
-<msg time="2026-02-20T09:01:58.817646" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-02-27T07:41:31.655917" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2026-02-27T07:41:31.672720" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>id=password</arg>
 <arg>secret_sauce</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:01:58.800735" elapsed="0.040251"/>
+<status status="PASS" start="2026-02-27T07:41:31.655646" elapsed="0.040127"/>
 </kw>
 <kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-20T09:01:58.841422" level="INFO">Clicking button 'id=login-button'.</msg>
+<msg time="2026-02-27T07:41:31.696189" level="INFO">Clicking button 'id=login-button'.</msg>
 <arg>id=login-button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:01:58.841158" elapsed="0.060108"/>
+<status status="PASS" start="2026-02-27T07:41:31.695939" elapsed="0.062985"/>
 </kw>
-<status status="PASS" start="2026-02-20T09:01:54.941445" elapsed="3.959970"/>
+<status status="PASS" start="2026-02-27T07:41:26.924450" elapsed="4.834620"/>
 </kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-20T09:01:58.901975" level="INFO">Clicking button 'id=add-to-cart-sauce-labs-backpack'.</msg>
-<arg>id=add-to-cart-sauce-labs-backpack</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:01:58.901703" elapsed="0.042640"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-20T09:02:00.945738" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-20T09:01:58.944605" elapsed="2.003697"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-20T09:02:00.953151" level="INFO">Clicking button 'id=add-to-cart-sauce-labs-bolt-t-shirt'.</msg>
-<arg>id=add-to-cart-sauce-labs-bolt-t-shirt</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:02:00.950776" elapsed="0.051715"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-20T09:02:03.003296" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-20T09:02:01.002782" elapsed="2.000962"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-20T09:02:03.004601" level="INFO">Clicking button 'id=add-to-cart-sauce-labs-bike-light'.</msg>
-<arg>id=add-to-cart-sauce-labs-bike-light</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:02:03.004150" elapsed="0.055874"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-20T09:02:05.061167" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-20T09:02:03.060323" elapsed="2.001338"/>
-</kw>
-<kw name="Element Should Contain" owner="Selenium2Library">
-<msg time="2026-02-20T09:02:05.088567" level="INFO">Element 'id=shopping_cart_container' contains text '3'.</msg>
-<arg>id=shopping_cart_container</arg>
-<arg>3</arg>
-<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
-<status status="PASS" start="2026-02-20T09:02:05.062537" elapsed="0.026266"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-20T09:02:05.089622" level="INFO">Clicking button 'id=remove-sauce-labs-backpack'.</msg>
-<arg>id=remove-sauce-labs-backpack</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:02:05.089233" elapsed="0.038175"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-20T09:02:07.128903" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-20T09:02:05.127902" elapsed="2.001383"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-20T09:02:07.130916" level="INFO">Clicking button 'id=remove-sauce-labs-bike-light'.</msg>
-<arg>id=remove-sauce-labs-bike-light</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:02:07.130010" elapsed="0.056164"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-20T09:02:09.187236" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-20T09:02:07.186468" elapsed="2.002000"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-20T09:02:09.190573" level="INFO">Clicking button 'id=remove-sauce-labs-bolt-t-shirt'.</msg>
-<arg>id=remove-sauce-labs-bolt-t-shirt</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-20T09:02:09.189847" elapsed="0.045774"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-20T09:02:19.237499" level="INFO">Slept 10 seconds.</msg>
-<arg>10s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-20T09:02:09.235936" elapsed="10.003424"/>
-</kw>
-<kw name="Close Browser" owner="Selenium2Library">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-02-20T09:02:19.243427" elapsed="2.202310"/>
-</kw>
-<status status="PASS" start="2026-02-20T09:01:54.939403" elapsed="26.506818"/>
+<status status="PASS" start="2026-02-27T07:41:26.918263" elapsed="4.841034"/>
 </test>
-<status status="PASS" start="2026-02-20T09:01:54.801577" elapsed="26.650749"/>
+<status status="PASS" start="2026-02-27T07:41:26.678607" elapsed="5.083841"/>
 </suite>
-<status status="PASS" start="2026-02-20T09:01:54.770471" elapsed="26.686158"/>
+<status status="PASS" start="2026-02-27T07:41:26.643290" elapsed="5.121600"/>
 </suite>
 <statistics>
 <total>
@@ -137,9 +55,10 @@
 </tag>
 <suite>
 <stat name="RobotFramework" id="s1" pass="1" fail="0" skip="0">RobotFramework</stat>
-<stat name="Cart" id="s1-s1" pass="1" fail="0" skip="0">RobotFramework.Cart</stat>
+<stat name="Sorting" id="s1-s1" pass="1" fail="0" skip="0">RobotFramework.Sorting</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2026-02-27T07:41:27.660249" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
 </errors>
 </robot>
