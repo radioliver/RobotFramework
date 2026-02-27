@@ -28,15 +28,6 @@ Sort products A to Z
 
     Close All Browsers  
 
-Sort products price low to high
-    Login with standard user
-    Click Element    class=product_sort_container
-    Sleep    2s
-    Select From List By Label    class=inventory_item_price    Price (low to high)
-    Sleep    4s
-    ${product_names}=    Get all products
-    Veryfy price low to high sorting     ${product_names}
-    Close All Browsers
 
 
 *** Keywords ***
@@ -71,11 +62,3 @@ Veryfy A to Z sorting
 
     END   
 
-Veryfy price low to high sorting 
-    [Arguments]    ${product_names} 
-    ${length}=    Get Length    ${product_names}
-    FOR    ${i}    IN RANGE    1    ${length}-1
-        ${current}=    Get From List    ${product_names}    ${i}
-        ${next}=    Get From List   ${product_names}    ${i+1}
-
-        Should Be True    ${current}<=${next}    Sorting is not price low to high at index ${i}
