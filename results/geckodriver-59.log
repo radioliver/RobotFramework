@@ -1,0 +1,17 @@
+1772782417123	geckodriver	INFO	Listening on 127.0.0.1:62840
+1772782420216	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62841" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RADIOL~1\\AppData\\Local\\Temp\\rust_mozprofile9SBmVt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1772782420431	Marionette	INFO	Marionette enabled
+1772782420502	Marionette	INFO	Listening on port 58712
+WebDriver BiDi listening on ws://127.0.0.1:62841
+Read port: 58712
+1772782420588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1772782425913	Marionette	INFO	Stopped listening on port 58712
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1128: Error: Connection is not open.
