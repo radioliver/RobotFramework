@@ -89,5 +89,5 @@ Checkout megszakítása - Cancel gombbal
     Input Text    id=postal-code    5000
     Click Button    id=continue
     Click Button    id=finish
-    Page Should Contain     text=Checkout: Overview
+    Page Should Contain     text=Checkout: Complete!
     Close Browser
